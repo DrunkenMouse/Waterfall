@@ -15,6 +15,9 @@
 		163CA8BB1D3B917000551101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CA8B91D3B917000551101 /* LaunchScreen.storyboard */; };
 		163CA8C61D3B917000551101 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA8C51D3B917000551101 /* ___Tests.m */; };
 		163CA8D11D3B917000551101 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA8D01D3B917000551101 /* ___UITests.m */; };
+		163CA8DF1D3B92CA00551101 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 163CA8DE1D3B92CA00551101 /* 1.plist */; };
+		163CA8E21D3B92FE00551101 /* ADShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA8E11D3B92FE00551101 /* ADShop.m */; };
+		163CA8E51D3B94B600551101 /* ADWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA8E41D3B94B600551101 /* ADWaterfallFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		163CA8CC1D3B917000551101 /* 瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163CA8D01D3B917000551101 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		163CA8D21D3B917000551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA8DE1D3B92CA00551101 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		163CA8E01D3B92FE00551101 /* ADShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShop.h; sourceTree = "<group>"; };
+		163CA8E11D3B92FE00551101 /* ADShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShop.m; sourceTree = "<group>"; };
+		163CA8E31D3B94B600551101 /* ADWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		163CA8E41D3B94B600551101 /* ADWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWaterfallFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +113,16 @@
 				163CA8AF1D3B917000551101 /* AppDelegate.m */,
 				163CA8B11D3B917000551101 /* ViewController.h */,
 				163CA8B21D3B917000551101 /* ViewController.m */,
+				163CA8DE1D3B92CA00551101 /* 1.plist */,
 				163CA8B41D3B917000551101 /* Main.storyboard */,
 				163CA8B71D3B917000551101 /* Assets.xcassets */,
 				163CA8B91D3B917000551101 /* LaunchScreen.storyboard */,
 				163CA8BC1D3B917000551101 /* Info.plist */,
 				163CA8AB1D3B917000551101 /* Supporting Files */,
+				163CA8E01D3B92FE00551101 /* ADShop.h */,
+				163CA8E11D3B92FE00551101 /* ADShop.m */,
+				163CA8E31D3B94B600551101 /* ADWaterfallFlowLayout.h */,
+				163CA8E41D3B94B600551101 /* ADWaterfallFlowLayout.m */,
 			);
 			path = "瀑布流";
 			sourceTree = "<group>";
@@ -248,6 +261,7 @@
 			files = (
 				163CA8BB1D3B917000551101 /* LaunchScreen.storyboard in Resources */,
 				163CA8B81D3B917000551101 /* Assets.xcassets in Resources */,
+				163CA8DF1D3B92CA00551101 /* 1.plist in Resources */,
 				163CA8B61D3B917000551101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +289,8 @@
 			files = (
 				163CA8B31D3B917000551101 /* ViewController.m in Sources */,
 				163CA8B01D3B917000551101 /* AppDelegate.m in Sources */,
+				163CA8E21D3B92FE00551101 /* ADShop.m in Sources */,
+				163CA8E51D3B94B600551101 /* ADWaterfallFlowLayout.m in Sources */,
 				163CA8AD1D3B917000551101 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
